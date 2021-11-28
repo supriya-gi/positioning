@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Inter:wght@500&family=Mukta&family=Mulish:ital,wght@0,400;0,500;0,700;1,300;1,400&family=Poppins:wght@300&family=Roboto&family=Source+Sans+Pro:wght@600;700&family=Zen+Antique+Soft&display=swap');
+$full_width:100%;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+  width: 100%;
+}
+.container{
+    width: 700px;
+    height: 525px;
+    // background-color: red;
+    position: relative;
+    top: 46px;
+    margin: 0 auto;
+}
+.red_layer{
+    width: 50%;
+    float: left;
+    height: 250px;
+    background-color: #bd564d;
+
+}
+.gray_layer{
+    width: 50%;
+    float: right;
+    height:200px;
+    background-color: #cecfe4;
+    position: relative;
+    top: 73px;
+    right: 0;
+
+}
+.first_box{
+    position: absolute;
+    top: 0;
+    left: 125px;
+}
+.blue_layer{
+    width: 192px;
+    height: 192px;
+    text-align: center;
+    background-color: #404064;
+    color: white;
+    padding: 15px;
+    z-index: 1;
+    position: absolute;
+    bottom: 120px;
+    right: 160px;
+    .content{
+        width: 190px;
+        height: 190px;
+        border: 1px solid white;
+  h3{
+     margin-top: 20px;
+    padding: 20px 10px 10px;
+    font-weight: 700;
+    line-height: 25px;
+    // font-family: 'Passion One';    
+  }
+  p{
+    font-family: 'Zen Antique Soft', serif; 
+    padding:0px 10px;
+    font-size: 10px;
+    
+  }
+}
+}
+.paragraph{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    left: 25px;
+    bottom: 0;
+.line{
+    width: 25px;
+    height: 150px;
+    background-color: #403f64;
+}
+p{
+    color: #787571;
+    padding: 20px;
+    line-height: 25px;
+    font-family: 'Zen Antique Soft', serif; 
+}
+}
+
+@media screen and(min-width:320px) and(max-width:768px) {
+    .wrapper{
+        width: 100%;
+    }
+    .red_layer{
+        width: 50%;
+    }
+    .gray_layer{
+        width: 50%;
+        float: right;
+    }
+}
